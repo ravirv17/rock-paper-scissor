@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #result, #score {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  
+  button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  
